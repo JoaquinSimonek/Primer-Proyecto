@@ -1,0 +1,237 @@
+body{
+    background-color: #d4d894;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.navbar{
+    background-color: #ebead5;
+}
+
+.titulo {
+    background-color: #d6c677;
+    padding: 20px; /* espaciado alrededor del título */
+    margin: 0; /* elimina el margen */
+    text-align: center;
+}
+
+.titulo h1 {
+    margin: 0; /* elimina el margen interno del título */
+    color: #000011;
+}
+
+.navbar-nav .nav-link {
+    color: #23ae69; /* Cambia este valor al color que desees */
+    margin-right: 15px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #0d6474; /* color de texto al pasar el mouse */
+    background-color: #f3f3f3; /* color de fondo al pasar el mouse */
+    border-radius: 5px; /* Agrega bordes redondeados */
+}
+
+.carousel-inner img {
+    max-width: 50%; /* Ajusta el ancho máximo de las imágenes al 100% */
+    max-height: 300px; /* Ajusta la altura máxima de las imágenes en píxeles */
+    margin: 0 auto; /* Centra las imágenes horizontalmente */
+    border-radius: 30px;
+}
+
+.contenedor-cuadros {
+    display: flex;
+    justify-content: center; /* alineación horizontal al centro */
+    align-items: flex-start; /* alineación vertical arriba */
+    flex-wrap: wrap; /* envolver los cuadros en varias filas si no caben en una sola */
+    gap: 20px; /* espacio entre los cuadros */
+}
+
+.cuadro {
+    display: inline-block;
+    width: calc(25% - 20px);
+    padding: 20px;
+	margin: 20px; 
+	background-color: #f9f7f9;
+    border: 1px solid #ccc; 
+    box-sizing: border-box;
+    text-align: center; 
+    justify-content: center; /* alineación horizontal al centro */
+    gap: 50px; /* espacio entre las tarjetas */
+    border-radius: 30px;
+}
+
+.cuadro img{
+    width: 100%; /* ajusta el ancho de la imagen según tus necesidades */
+    height: auto; /* ajusta la altura de la imagen según tus necesidades */
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    justify-items: center;
+    border-radius: 25% 10%;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.cuadro h1{
+    color: #ffa070;
+    padding: 10px 30px; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 3vw;
+    margin-bottom: 10px;
+}
+
+.ew {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.texto-ge {
+    font-size: 1vw; /* Ajusta el tamaño de fuente del texto según tus necesidades */
+	color: black;
+    text-align: start;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.grup{
+    color: #000011;
+    text-align: center;
+}
+
+.contenedor-card {
+    display: flex;
+    justify-content: center; /* Alineación horizontal al centro */
+    gap: 20px; /* Espacio entre las tarjetas */
+    margin-bottom: 15px;
+}
+
+.card {
+    width: 300px; /* Ancho de cada tarjeta */
+    background-color: #eaffd9;
+    border: 5px solid #ffff84 ;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 25% 10%;
+}
+
+.card img {
+    width: 180px; /* Ajusta el ancho de la imagen según tus necesidades */
+    height: 180px; /* Ajusta la altura de la imagen según tus necesidades */
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    justify-items: center;
+    border-radius: 30px;
+}
+
+.a_tlt {
+    color: #000011;
+    text-align: center;
+    height: 8vh;
+    padding: 15px; 
+    background-color: #d1d15f;
+    border-radius: 5px;
+    border: 1px solid #f4f9f9; 
+}
+
+.acerca p { 
+    color:rgb(0, 0, 0) ;
+    text-align: center;
+}
+
+.ac_datos {
+    display: flex;
+    align-items:normal ;
+    margin-left: 20px; /* Ajusta el margen izquierdo según tus necesidades */
+    max-width: auto; /* Ajusta el ancho máximo del div según tus necesidades */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.arc_cud{
+    background-color: #eaffd9;
+}
+
+.ac_datos h4, .ac_datos h4 {
+    margin: 10;
+    padding: 10;
+    text-align: none;
+}
+
+.ac_datos h4 {
+    width: 50px; /* Ajusta el ancho de los encabezados según tus necesidades */
+    margin-right: 20px;  
+    text-align: center;
+}
+
+.ac_datos .con{
+    width: 50px; /* Ajusta el ancho de los encabezados según tus necesidades */
+    margin-right:70px;  
+    text-align: center;
+    box-sizing: border-box;
+    padding: auto;
+}
+
+.ac_datos .dir{
+    width: 50px; /* Ajusta el ancho de los encabezados según tus necesidades */
+    margin-right:70px;  
+    text-align: center;
+    box-sizing: border-box;
+    padding: auto;
+}
+
+.ac_datos h6 {
+    margin: 5px 0; /* Ajusta los márgenes superiores e inferiores según tus necesidades */
+    margin-right: 50px;  
+    text-align: justify;
+}
+
+.ac_ima {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px; /* Ajusta el margen inferior de la imagen según tus necesidades */
+    margin-top: 10;
+    
+
+}
+
+.ac_ima img {
+    margin-bottom: 10px; /* Ajusta el margen inferior de la imagen según tus necesidades */
+    width: 900px; /* Ajusta el ancho de la imagen según tus necesidades */
+    height: 180px; /* Ajusta la altura de la imagen según tus necesidades */
+}
+
+footer {
+    background-color: #4caf50; /* Color de fondo del footer */
+    color: #fff;
+    padding: 8px 0;
+}
+
+.footer-content{
+    max-width: auto;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #d6c677;
+    color: #fff;
+    margin-top: auto;
+    bottom: 0;
+    width: 100%;
+}
+
+footer img{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px ;
+    text-decoration: none;
+    margin-right: 9px;  
+}
